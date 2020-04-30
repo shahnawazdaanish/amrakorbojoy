@@ -1,0 +1,26 @@
+{
+  "name": "templatera",
+  "version": "1.0.0",
+  "description": "VC-Template-Manager ===================",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "uglify-js": "3.5.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "uglifyjs assets/js/templatera-grid-id-param.js -c -m -o assets/js/templatera-grid-id-param.min.js && uglifyjs assets/js/templates.js -c -m -o assets/js/templates.min.js && uglifyjs assets/js/templates_panels.js -c -m -o assets/js/templates_panels.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpbakery/templatera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpbakery/templatera/issues"
+  },
+  "homepage": "https://github.com/wpbakery/templatera#readme"
+}
