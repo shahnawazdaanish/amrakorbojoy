@@ -124,7 +124,7 @@
 		    			$_SESSION['CUS_HISTORY']['GET_STATUS'] = $status;
 		    			$_SESSION['CUS_HISTORY']['DATA_STATUS'] = 'Processing';
 		    			$_SESSION['CUS_HISTORY']['AMOUNTS'] = $amount;
-		    			if ( wp_redirect( $_SESSION['CUS_HISTORY']['SITE_URL'] ) ) {
+		    			if ( wp_redirect( $_SESSION['CUS_HISTORY']['SITE_URL'] . '?status_sslcz='.$results[0]['trxid'] ) ) {
 						    exit;
 						}
 		    		}

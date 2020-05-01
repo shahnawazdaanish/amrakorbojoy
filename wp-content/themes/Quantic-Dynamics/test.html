@@ -1,0 +1,43 @@
+<div class="shaz-donate-form">
+    <div class="signup-content">
+        <div class="signup-form">
+            <form id="register-form" class="register-form" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <div class="form-input"><label class="required" for="name">Your name</label><input id="name" name="name" required="" type="text"/></div>
+                        <div class="form-input"><label class="required" for="phone_number">Phone number</label><input id="phone_number" name="phone_number" type="text"/></div>
+                        <div class="form-select">
+                            <div class="label-flex"><label for="country">Country</label></div>
+                            <div class="select-list"><select id="country" name="country">
+                                <option value="Vegetarian">Vegetarian</option>
+                                <option value="Kosher">Kosher</option>
+                                <option value="Asian Vegetarian">Asian Vegetarian</option>
+                            </select></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-input"><label class="required" for="email">Email</label><input id="email" name="email" type="text"/></div>
+                        <div class="form-input"><label class="required" for="city">City</label><input id="city" name="city" type="text"/></div>
+                        <div class="form-radio">
+                            <div class="label-flex"><label for="payment">Payment Mode</label>
+                                <a class="form-link" href="#">Payment Detail</a></div>
+                            <div class="form-radio-group">
+                                <div class="form-radio-item"><input id="sslcz" checked="checked" name="payment"
+                                                                    type="radio" value="sslcz"/><label for="sslcz">SSLCommerz</label><span class="check"></span></div>
+                                <div class="form-radio-item"><input id="nagad" name="payment" type="radio" value="nagad"/><label for="nagad">Nagad</label><span class="check"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="donate-us"><label>Donation Amount</label>
+                    <div class="price_slider ui-slider ui-slider-horizontal">
+                        <div id="slider-margin"></div>
+                        &nbsp;
+
+                    </div>
+                </div>
+                <div class="form-submit"><input id="submit" class="submit" name="submit" type="submit" value="Submit"/><input id="reset" class="submit" name="reset" type="submit" value="Reset"/></div>
+            </form>
+        </div>
+    </div>
+</div>

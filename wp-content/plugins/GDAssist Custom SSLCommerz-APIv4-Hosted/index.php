@@ -14,6 +14,7 @@ if (!defined('ABSPATH')) exit; // Exit if accessed directly
 add_action('admin_menu', 'main');
 
 add_action('plugins_loaded', array(Sslc_success_url::get_instance(), 'setup'));
+add_action('plugins_loaded', array(Sslc_status_url::get_instance(), 'setup'));
 add_action('plugins_loaded', array(Sslc_fail_url::get_instance(), 'setup'));
 add_action('plugins_loaded', array(Sslc_cancel_url::get_instance(), 'setup'));
 add_action('plugins_loaded', array(Sslc_ipn_url::get_instance(), 'setup'));
@@ -256,14 +257,14 @@ function wpse_ordertList_render()
                             <td><?php echo $row['ipn_status']; ?></td>
                         </tr>
                         <?php
-                        $total_amt += $row['total_amount'] . " TK";
+                        $total_amt += (double) $row['total_amount'];
                     }
                 }
                 ?>
             </tbody>
         </table>
         <div style="text-align:center">
-            <h3>Total Amount: <?php echo number_format($total_amt, 2); ?></h3>
+            <h3>Total Amount: <?php echo number_format($total_amt, 2); ?> TK</h3>
         </div>
     </div>
 <?php
@@ -308,6 +309,47 @@ class Sslc_success_url
         }
     }
 }
+
+class Sslc_status_url
+{
+    protected static $instance = NULL;
+    public function __construct()
+    { }
+    public static function get_instance()
+    {
+        NULL === self::$instance and self::$instance = new self;
+        return self::$instance;
+    }
+    public function setup()
+    {
+        add_action('init', array($this, 'rewrite_rules'));
+        add_filter('query_vars', array($this, 'query_vars'), 10, 1);
+        add_action('parse_request', array($this, 'parse_request'), 10, 1);
+        register_activation_hook(__FILE__, array($this, 'flush_rules'));
+    }
+    public function rewrite_rules()
+    {
+        add_rewrite_rule('sslcz_status/?$', 'index.php?status_sslcz', 'top');
+    }
+    public function flush_rules()
+    {
+        $this->rewrite_rules();
+        flush_rewrite_rules();
+    }
+    public function query_vars($vars)
+    {
+        $vars[] = 'status_sslcz';
+        return $vars;
+    }
+    public function parse_request($wp)
+    {
+        if (array_key_exists('status_sslcz', $wp->query_vars)) {
+            include plugin_dir_path(__FILE__) . 'sslcommerz/sslcz_status.php';
+            exit();
+        }
+    }
+}
+
 
 class Sslc_fail_url
 {

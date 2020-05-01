@@ -1,0 +1,183 @@
+[01-May-2020 14:49:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function get_client_ip() in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php:47
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php(115): Nagad->HttpPostMethod('http://sandbox....', Array)
+#1 E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\functions.php(78): Nagad->initiatePayment('500', 'asdf', 'sdaanish@live.c...', '01747544555', 'd', 'undefined')
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): users_details_callback('')
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-admin\admin-ajax.php(175): do_action('wp_ajax_donatio...')
+#6 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php on line 47
+[01-May-2020 14:49:44 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function get_client_ip() in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php:47
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php(115): Nagad->HttpPostMethod('http://sandbox....', Array)
+#1 E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\functions.php(78): Nagad->initiatePayment('500', 'asdf', 'sdaanish@live.c...', '01747544555', 'd', 'undefined')
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): users_details_callback('')
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-admin\admin-ajax.php(175): do_action('wp_ajax_donatio...')
+#6 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php on line 47
+[01-May-2020 14:50:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function echoResp() in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php:181
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\functions.php(78): Nagad->initiatePayment('500', 'asdf', 'sdaanish@live.c...', '01747544555', 'd', 'undefined')
+#1 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): users_details_callback('')
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-admin\admin-ajax.php(175): do_action('wp_ajax_donatio...')
+#5 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\Nagad.php on line 181
+[01-May-2020 10:30:02 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:02 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:30:03 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:31:46 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 266
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 10:32:16 UTC] PHP Notice:  A non well formed numeric value encountered in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 259
+[01-May-2020 16:42:49 Asia/Dhaka] WordPress database error Unknown column 'reference_id' in 'field list' for query INSERT INTO `wpef_sslcommerz_payment` (`trxid`, `reference_id`, `tran_status`, `card_type`, `total_amount`, `product_name`, `cus_name`, `cus_email`, `cus_phone`, `cus_address`, `cus_country`, `cus_city`, `cus_postcode`) VALUES ('Inv20200501164402', 'MDUwMTE2Mzk1Nzc5OC42ODMwMDIwMDcxMDQyMjUuSW52MjAyMDA1MDExNjQ0MDIuY2QyNWQxNzIyMWY1MmJiMGI0OTQ=', 'Pending', '', '1300', 'donation', 'asdf', 'sdaanish@live.com', '01747544555', 'adfadsf', 'undefined', 'd', '1') made by do_action('wp_ajax_donation_submit'), WP_Hook->do_action, WP_Hook->apply_filters, users_details_callback, Nagad->initiatePayment
+[01-May-2020 16:43:38 Asia/Dhaka] WordPress database error Unknown column 'card_type' in 'field list' for query INSERT INTO `wpef_nagad_payment` (`trxid`, `reference_id`, `tran_status`, `card_type`, `total_amount`, `product_name`, `cus_name`, `cus_email`, `cus_phone`, `cus_address`, `cus_country`, `cus_city`, `cus_postcode`) VALUES ('Inv20200501169946', 'MDUwMTE2NDA0NzA2OS42ODMwMDIwMDcxMDQyMjUuSW52MjAyMDA1MDExNjk5NDYuYzAwOGQwOTAxYTc4ZmVmYzZkZjQ=', 'Pending', '', '1300', 'donation', 'asdf', 'sdaanish@live.com', '01747544555', 'adfadsf', 'undefined', 'd', '1') made by do_action('wp_ajax_donation_submit'), WP_Hook->do_action, WP_Hook->apply_filters, users_details_callback, Nagad->initiatePayment
+[01-May-2020 16:44:48 Asia/Dhaka] WordPress database error Unknown column 'product_name' in 'field list' for query INSERT INTO `wpef_nagad_payment` (`trxid`, `reference_id`, `tran_status`, `total_amount`, `product_name`, `cus_name`, `cus_email`, `cus_phone`, `cus_address`, `cus_country`, `cus_city`, `cus_postcode`) VALUES ('Inv20200501161614', 'MDUwMTE2NDE1NjI2Mi42ODMwMDIwMDcxMDQyMjUuSW52MjAyMDA1MDExNjE2MTQuZWIyYzRlNDVhZWE3MGI2ODhmODk=', 'Pending', '1300', 'donation', 'asdf', 'sdaanish@live.com', '01747544555', 'adfadsf', 'undefined', 'd', '1') made by do_action('wp_ajax_donation_submit'), WP_Hook->do_action, WP_Hook->apply_filters, users_details_callback, Nagad->initiatePayment
+[01-May-2020 10:58:58 UTC] PHP Notice:  Undefined index: paymentRefId in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 10
+[01-May-2020 11:00:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Nagad' not found in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php:12
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\index.php(304): include()
+#1 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): Nagad_response_url->parse_request(Object(WP))
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(735): WP->parse_request('')
+#6 E:\server\htdocs\amrakorbojoy\wp-includes\functions.php(1274): WP->main('')
+#7 E:\server\htdocs\amrakorbojoy\wp-blog-header.php(16): wp()
+#8 E:\server\htdocs\amrakorbojoy\index.php(17): require('E:\\server\\htdoc...')
+#9 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:03:06 UTC] PHP Warning:  require_once(../Nagad.php): failed to open stream: No such file or directory in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:03:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../Nagad.php' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:03:45 UTC] PHP Warning:  require_once(E:\server\htdocs\amrakorbojoy): failed to open stream: Permission denied in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:03:45 UTC] PHP Fatal error:  require_once(): Failed opening required './' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:04:18 UTC] PHP Warning:  require_once(/amrakorbojoy/): failed to open stream: No such file or directory in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:04:18 UTC] PHP Fatal error:  require_once(): Failed opening required '/amrakorbojoy/' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:04:39 UTC] PHP Warning:  require_once(E:\server\htdocs\amrakorbojoy): failed to open stream: Permission denied in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:04:39 UTC] PHP Fatal error:  require_once(): Failed opening required './' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:04:53 UTC] PHP Warning:  require_once(E:\server\htdocs\amrakorbojoy): failed to open stream: Permission denied in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 13
+[01-May-2020 11:04:53 UTC] PHP Fatal error:  require_once(): Failed opening required './' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 13
+[01-May-2020 11:05:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12 and exactly 1 expected in E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php:750
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php(12): plugin_dir_path()
+#1 E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\index.php(304): include('E:\\server\\htdoc...')
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): Nagad_response_url->parse_request(Object(WP))
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#6 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(735): WP->parse_request('')
+#7 E:\server\htdocs\amrakorbojoy\wp-i in E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php on line 750
+[01-May-2020 11:05:29 UTC] PHP Warning:  require_once(E:\server\htdocs\amrakorbojoy): failed to open stream: Permission denied in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 13
+[01-May-2020 11:05:29 UTC] PHP Fatal error:  require_once(): Failed opening required './' (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 13
+[01-May-2020 11:06:15 UTC] PHP Warning:  include_once(../Nagad.php): failed to open stream: No such file or directory in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:06:15 UTC] PHP Warning:  include_once(): Failed opening '../Nagad.php' for inclusion (include_path='E:\server\php\PEAR') in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 12
+[01-May-2020 11:06:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Nagad' not found in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php:13
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\index.php(304): include()
+#1 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): Nagad_response_url->parse_request(Object(WP))
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(735): WP->parse_request('')
+#6 E:\server\htdocs\amrakorbojoy\wp-includes\functions.php(1274): WP->main('')
+#7 E:\server\htdocs\amrakorbojoy\wp-blog-header.php(16): wp()
+#8 E:\server\htdocs\amrakorbojoy\index.php(17): require('E:\\server\\htdoc...')
+#9 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 13
+[01-May-2020 17:07:29 Asia/Dhaka] PHP Notice:  Undefined index: tran_id in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 160
+[01-May-2020 17:07:29 Asia/Dhaka] PHP Notice:  Undefined offset: 0 in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 163
+[01-May-2020 17:08:35 Asia/Dhaka] PHP Notice:  Undefined index: tran_id in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 160
+[01-May-2020 17:08:35 Asia/Dhaka] PHP Notice:  Undefined offset: 0 in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 163
+[01-May-2020 17:14:36 Asia/Dhaka] PHP Notice:  Undefined index: tran_id in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 161
+[01-May-2020 17:42:03 Asia/Dhaka] PHP Notice:  Trying to get property 'trxid' of non-object in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_verify.php on line 170
+[01-May-2020 11:43:10 UTC] PHP Notice:  Undefined variable: table_name in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_status.php on line 13
+[01-May-2020 11:43:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE trxid = 'Inv20200501162166'' at line 1 for query SELECT * FROM  WHERE trxid = 'Inv20200501162166'  made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, Nagad_status_url->parse_request, include('/plugins/Nagad/nagad/nagad_status.php')
+[01-May-2020 11:43:37 UTC] PHP Notice:  Undefined variable: table_name in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_status.php on line 13
+[01-May-2020 11:43:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE trxid = 'Inv20200501162166'' at line 1 for query SELECT * FROM  WHERE trxid = 'Inv20200501162166'  made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, Nagad_status_url->parse_request, include('/plugins/Nagad/nagad/nagad_status.php')
+[01-May-2020 11:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_header() in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_status.php:3
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\index.php(345): include()
+#1 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(287): Nagad_status_url->parse_request(Object(WP))
+#2 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\server\htdocs\amrakorbojoy\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#4 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#5 E:\server\htdocs\amrakorbojoy\wp-includes\class-wp.php(735): WP->parse_request('')
+#6 E:\server\htdocs\amrakorbojoy\wp-includes\functions.php(1274): WP->main('')
+#7 E:\server\htdocs\amrakorbojoy\wp-blog-header.php(16): wp()
+#8 E:\server\htdocs\amrakorbojoy\index.php(17): require('E:\\server\\htdoc...')
+#9 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\nagad_status.php on line 3
+[01-May-2020 12:11:09 UTC] PHP Notice:  Undefined index: name in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\invoice.php on line 3
+[01-May-2020 12:13:14 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE), expecting '{' in E:\server\htdocs\amrakorbojoy\wp-content\plugins\Nagad\nagad\invoice.php on line 3
+[01-May-2020 13:57:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Sslc_status_url' not found in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php:17
+Stack trace:
+#0 E:\server\htdocs\amrakorbojoy\wp-settings.php(371): include_once()
+#1 E:\server\htdocs\amrakorbojoy\wp-config.php(93): require_once('E:\\server\\htdoc...')
+#2 E:\server\htdocs\amrakorbojoy\wp-load.php(37): require_once('E:\\server\\htdoc...')
+#3 E:\server\htdocs\amrakorbojoy\wp-admin\admin-ajax.php(22): require_once('E:\\server\\htdoc...')
+#4 {main}
+  thrown in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\index.php on line 17
+[01-May-2020 14:00:16 UTC] PHP Notice:  Undefined index: cus_name in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 87
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: cus_email in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 88
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: cus_phone in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 89
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: cus_add in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 90
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: cus_country in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 91
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: cus_city in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 92
+[01-May-2020 14:00:17 UTC] PHP Notice:  Undefined index: currency in E:\server\htdocs\amrakorbojoy\wp-content\themes\Quantic-Dynamics\SSLCommerz.php on line 93
+[01-May-2020 14:06:12 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in E:\server\htdocs\amrakorbojoy\wp-content\plugins\GDAssist Custom SSLCommerz-APIv4-Hosted\sslcommerz\invoice.php on line 223
